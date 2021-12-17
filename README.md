@@ -43,7 +43,7 @@ mvn package
 2. Then run
 
     ```shell
-    mvn install
+    mvn install -Dmaven.test.skip=true
     ```
 
 ## Authors:
